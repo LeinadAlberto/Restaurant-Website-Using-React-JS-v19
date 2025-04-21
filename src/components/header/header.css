@@ -1,0 +1,27 @@
+.header {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav, 
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.nav-logo-img {
+    width: 170px;
+}
+
+.nav-menu {
+    background-color: var(--first-color);
+}

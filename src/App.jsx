@@ -1,6 +1,6 @@
 import './App.css'
 
-import Header from './components/header/Header'
+import Header from './components/header/Header.jsx'
 import Home from './components/home/Home'
 import Reservation from './components/reservation/Reservation'
 import Features from './components/features/Features'
@@ -16,7 +16,7 @@ const App = () => {
 
 		<>
 
-			<Header />
+			<Header /> 
 			<Home />
 			<Reservation />
 			<Features />
